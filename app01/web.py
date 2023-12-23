@@ -1,7 +1,7 @@
 import streamlit as st
 import functions
 
-st.session_state
+
 todos = functions.get_todos()
 
 def get_new_todo():
